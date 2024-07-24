@@ -304,3 +304,31 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
 }
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+/* CENTERING TEXT */
+
+.centered {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
