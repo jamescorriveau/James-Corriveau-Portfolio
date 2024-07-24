@@ -296,13 +296,19 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 2rem 1.5rem; /* Increase padding to add top and bottom space */
   flex: 1;
   background: white;
-  border-radius: 2rem;
+  border-radius: 1rem; /* Reduce border-radius to make borders more square */
   border: 1px solid rgb(53, 53, 53);
   border-color: rgb(163, 163, 163);
   text-align: center;
+  margin: 1rem; /* Add margin for even separation */
+}
+
+.experience-section.details-container {
+  height: auto; /* Ensure the container's height adjusts to content */
+  min-height: 300px; /* Set a minimum height for the containers */
 }
 
 .section-container {
@@ -325,6 +331,18 @@ section {
 
 .experience-section {
   width: 48%;
+}
+
+.grid-3x3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.grid-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
 }
 
 .article-container {
@@ -354,14 +372,3 @@ article img {
   display: block;
   margin: 0 auto;
 }
-
-@media screen and (max-width: 1200px) {
-  #desktop-nav {
-    display: none;
-  }
-  #hamburger-nav {
-    display: flex;
-  }
-}
-
-/* Eperience Section */
