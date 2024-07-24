@@ -316,6 +316,37 @@ section {
   margin: auto 0;
 }
 
+/* EXPERIENCE SECTION */
+
+.experience-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-section {
+  width: 48%;
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+article img {
+  margin-right: 1rem;
+}
+
+.experience-sub-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 /* CENTERING TEXT */
 
 .centered {
@@ -332,3 +363,5 @@ section {
     display: flex;
   }
 }
+
+/* Eperience Section */
