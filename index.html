@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">James Corriveau</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">James Corriveau</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profilepic.jpeg"
+          alt="James Corriveau Profile Picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">James Corriveau</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My Linkedin Profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/james-corriveau/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github Profile"
+            class="icon"
+            onclick="location.href='https://github.com/jamescorriveau'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profilepic.jpeg"
+            alt="Profile Picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience Icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 year <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education Icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Flatiron School <br />Certificate of Completion</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Former executive sous chef transitioning into software
+              engineering. Highly motivated individual with a focus on front-end
+              web development and a passion for coding. Confident communicator,
+              eager to leverage comprehensive training to solve challenging
+              problems and create impactful, user-friendly applications.
+              Strategic thinker with the proven ability to develop front-end and
+              back-end components, databases, and user interfaces. Experienced
+              people leader with a strong emphasis on motivation, education,
+              collaboration, and prioritizing customer experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
