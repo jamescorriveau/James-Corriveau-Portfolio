@@ -293,6 +293,8 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  cursor: pointer;
+  height: 2rem;
 }
 
 .details-container {
@@ -323,6 +325,10 @@ section {
 }
 
 /* EXPERIENCE SECTION */
+
+#experience {
+  position: relative;
+}
 
 .experience-details-container {
   display: flex;
@@ -377,7 +383,7 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS */
+/* PROJECTS SECTION */
 
 #projects {
   position: relative;
@@ -386,6 +392,8 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  padding: 1rem; /* Add padding for consistent look */
+  border-radius: 1rem; /* Ensure consistent border radius */
 }
 
 .project-img {
@@ -405,6 +413,7 @@ article .icon {
 }
 
 /* CONTACT SECTION */
+
 #contact {
   display: flex;
   flex-direction: column;
@@ -440,6 +449,7 @@ article .icon {
 }
 
 /* FOOTER SECTION */
+
 footer {
   height: 26vh;
   margin: 0 1rem;
