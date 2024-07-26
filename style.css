@@ -404,41 +404,47 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-/* CONTACTS */
-
+/* CONTACT SECTION */
 #contact {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  align-items: center;
   height: 70vh;
 }
 
 .contact-info-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
   margin: 2rem auto;
-  padding: 0.5rem;
+  padding: 1rem;
+  gap: 2rem;
 }
 
-.contact-info-container {
+.contact-item {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 1rem;
 }
 
-.contact-info-container p {
-  font-size: larger;
+.contact-item p {
+  margin-left: 0.5rem;
 }
 
 .contact-icon {
+  height: 2.5rem;
   cursor: default;
 }
 
-.email-icon {
-  height: 2.5rem;
+/* FOOTER SECTION */
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
 }
