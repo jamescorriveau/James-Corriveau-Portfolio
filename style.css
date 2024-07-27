@@ -311,7 +311,7 @@ section {
 
 .experience-section.details-container {
   height: auto;
-  min-height: 400px; /* Increased height */
+  min-height: 400px;
 }
 
 .section-container {
@@ -344,13 +344,13 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, auto);
-  grid-gap: 1rem;
+  grid-gap: 3rem;
 }
 
 .grid-2x2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 .article-container {
