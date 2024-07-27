@@ -311,7 +311,7 @@ section {
 
 .experience-section.details-container {
   height: auto;
-  min-height: 400px;
+  min-height: 400px; /* Increased height */
 }
 
 .section-container {
@@ -341,16 +341,15 @@ section {
 }
 
 .frontend-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, auto);
-  grid-gap: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .grid-2x2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .article-container {
@@ -361,7 +360,10 @@ section {
 article {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem;
+  justify-content: flex-start;
+  width: 48%;
+  padding: 2rem; /* Added padding */
+  box-sizing: border-box; /* Ensures padding is included in width */
 }
 
 article img {
@@ -461,7 +463,7 @@ footer p {
   text-align: center;
 }
 
-/* SPECIFIC ADJUSTMENTS FOR SECTION TITLES */
+/* Specific padding adjustments for titles */
 
 section#experience h1.title {
   padding-bottom: 2rem;
