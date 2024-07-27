@@ -310,7 +310,7 @@ section {
 
 .experience-section.details-container {
   height: auto;
-  min-height: 300px;
+  min-height: 400px; /* Increased height */
 }
 
 .section-container {
@@ -339,9 +339,10 @@ section {
   width: 48%;
 }
 
-.grid-3x3 {
+.frontend-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
   grid-gap: 1rem;
 }
 
@@ -460,14 +461,15 @@ footer p {
 }
 
 /* Specific padding adjustments for titles */
+
 section#experience h1.title {
-  padding-bottom: 2rem; /* Adjust the value as needed */
+  padding-bottom: 2rem;
 }
 
 section#about h1.title {
-  margin-bottom: -60px; /* Adjust the value as needed */
+  margin-bottom: -60px;
 }
 
 section#projects h1.title {
-  margin-bottom: -10px; /* Adjust the value as needed */
+  margin-bottom: -10px;
 }
