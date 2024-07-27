@@ -298,19 +298,19 @@ section {
 }
 
 .details-container {
-  padding: 2rem 1.5rem; /* Increase padding to add top and bottom space */
+  padding: 2rem 1.5rem;
   flex: 1;
   background: white;
-  border-radius: 1rem; /* Reduce border-radius to make borders more square */
+  border-radius: 1rem;
   border: 1px solid rgb(53, 53, 53);
   border-color: rgb(163, 163, 163);
   text-align: center;
-  margin: 1rem; /* Add margin for even separation */
+  margin: 1rem;
 }
 
 .experience-section.details-container {
-  height: auto; /* Ensure the container's height adjusts to content */
-  min-height: 300px; /* Set a minimum height for the containers */
+  height: auto;
+  min-height: 300px;
 }
 
 .section-container {
@@ -392,8 +392,8 @@ article .icon {
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
-  padding: 1rem; /* Add padding for consistent look */
-  border-radius: 1rem; /* Ensure consistent border radius */
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
 .project-img {
@@ -457,4 +457,17 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Specific padding adjustments for titles */
+section#experience h1.title {
+  padding-bottom: 2rem; /* Adjust the value as needed */
+}
+
+section#about h1.title {
+  margin-bottom: -60px; /* Adjust the value as needed */
+}
+
+section#projects h1.title {
+  margin-bottom: -10px; /* Adjust the value as needed */
 }
