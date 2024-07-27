@@ -168,7 +168,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
-  position: relative; /* Added for arrow positioning */
+  position: relative;
 }
 
 .section__pic-container {
@@ -176,6 +176,13 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+#profile .profile-pic {
+  border-radius: 50%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .section__text {
@@ -362,8 +369,8 @@ article {
   align-items: center;
   justify-content: flex-start;
   width: 48%;
-  padding: 2rem; /* Added padding */
-  box-sizing: border-box; /* Ensures padding is included in width */
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 article img {
@@ -401,9 +408,10 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border-radius: 1rem;
   width: 90%;
   height: 90%;
+  padding-left: 2.5rem;
 }
 
 .project-title {
