@@ -168,6 +168,7 @@ section {
   justify-content: center;
   gap: 5rem;
   height: 80vh;
+  position: relative; /* Added for arrow positioning */
 }
 
 .section__pic-container {
@@ -460,7 +461,7 @@ footer p {
   text-align: center;
 }
 
-/* Specific padding adjustments for titles */
+/* SPECIFIC ADJUSTMENTS FOR SECTION TITLES */
 
 section#experience h1.title {
   padding-bottom: 2rem;
