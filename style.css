@@ -61,6 +61,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  padding-left: 2.5rem;
 }
 
 .logo:hover {
@@ -71,6 +72,7 @@ a:hover {
 
 #hamburger-nav {
   display: none;
+  padding-right: 2.5rem;
 }
 
 .hamburger-menu {
