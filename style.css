@@ -319,6 +319,8 @@ section {
   border-color: rgb(163, 163, 163);
   text-align: center;
   margin: 1rem;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
 }
 
 .experience-section.details-container {
@@ -350,6 +352,8 @@ section {
 
 .experience-section {
   width: 48%;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
 }
 
 .frontend-grid {
@@ -410,6 +414,12 @@ article .icon {
   background: rgb(250, 250, 250);
   padding: 1rem;
   border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.color-container:hover {
+  transform: scale(1.05); /* Slightly increase size */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
 
 .project-img {
@@ -449,6 +459,12 @@ article .icon {
   margin: 2rem auto;
   padding: 1rem;
   gap: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info-container:hover {
+  transform: scale(1.05); /* Slightly increase size */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
 
 .contact-item {
