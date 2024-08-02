@@ -171,8 +171,9 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 85vh;
   position: relative;
+  margin-top: -3rem;
 }
 
 .section__pic-container {
@@ -204,7 +205,7 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .title {
@@ -215,7 +216,7 @@ section {
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
   gap: 1rem;
 }
 
@@ -322,7 +323,7 @@ section {
 
 .experience-section.details-container {
   height: auto;
-  min-height: 400px; /* Increased height */
+  min-height: 400px;
 }
 
 .section-container {
