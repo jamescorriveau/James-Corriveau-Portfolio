@@ -403,9 +403,9 @@ article .icon {
 
 .project-img {
   border-radius: 1rem;
-  width: 90%;
-  height: 90%;
-  padding-left: 2.5rem;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .project-title {
