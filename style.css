@@ -425,6 +425,7 @@ article .icon {
   flex-direction: column;
   align-items: center;
   height: 70vh;
+  margin-top: 11rem;
 }
 
 .contact-info-container {
